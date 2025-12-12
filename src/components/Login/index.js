@@ -46,7 +46,7 @@ class Login extends Component {
                     </button>
 
                     <div>
-                        <a href="#">forgot password?</a>
+                        <p>Forgot Password?</p>
                         <br/>
                         <a href="/register">Register here</a>
                     </div>
