@@ -1,5 +1,6 @@
 import { Component } from "react";
 import './index.css'
+import { Link } from "react-router-dom";
 
 class Login extends Component {
 
@@ -37,13 +38,9 @@ class Login extends Component {
 
                     <br/>
 
-                    <button 
-                      className="login-button" 
-                      type="button"
-                      onClick={this.handleLogin}
-                    >
+                   <Link to={"/employee"}> <button className="login-button" type="button"onClick={this.handleLogin}>
                         Login
-                    </button>
+                    </button></Link>
 
                     <div>
                         <p>Forgot Password?</p>
